@@ -1,4 +1,5 @@
 NameVirtualHost *:80
+{% for vhost in apache_vhosts %}
 <VirtualHost *:80>
   ServerName {{ servername }}
   DocumentRoot {{ documentroot }}
@@ -12,3 +13,4 @@ NameVirtualHost *:80
      Allow from all
   </Directory>
 </VirtualHost>
+{% endfor %}

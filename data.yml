@@ -4,12 +4,12 @@ apache_vhosts:
   serveradmin: www-admin@foo.example.com
   directorypath: "/usr/local/httpd/htdocs"
 
-- servername: yaroslav
+- servername: www.yaroslav.tld
   documentroot: /www/yaroslav
   serveradmin: yaroslav-admin@foo.example.com
   directorypath: "/usr/local/httpd/htdocs1"
 
-- servername: kurapov
+- servername: www.kurapov.tld
   documentroot: /www/kurapov
   serveradmin: kurapov-admin@foo.example.com
   directorypath: "/usr/local/httpd/htdocs2"
