@@ -13,13 +13,13 @@ parser.add_argument(
     type=int,
     default=300,
     help='time'
-    )
+)
 parser.add_argument(
     '--type',
     type=str,
     default='text',
     help='text or json'
-    )
+)
 my_namespace = parser.parse_args()
 
 

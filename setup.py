@@ -5,8 +5,8 @@ setup(
     version='0.1.0',
     packages=find_packages(),
     entry_points={
-    "console_scripts": [
-        "snapshot = snapshot.main:output",
+        "console_scripts": [
+            "snapshot = snapshot.main:output",
         ],
     },
     author='Yaroslav Kurapov'
