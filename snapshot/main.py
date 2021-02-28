@@ -28,7 +28,7 @@ def system_info():
     memory = psutil.virtual_memory()[0]
     virtual_memory = psutil.virtual_memory()[3]
     io = psutil.disk_io_counters()[0:2]
-    network = psutil.net_if_addrs()['lo0'][0]
+    network = psutil.net_io_counters()
     snapshot = {'cpu_overall': cpu_overall,
                 'total memory': memory,
                 'virtual memory': virtual_memory,
